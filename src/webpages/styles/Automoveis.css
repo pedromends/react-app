@@ -1,0 +1,85 @@
+#tasks{
+  margin-top:30px;
+}
+
+#tasks input{
+  margin-right:10px;
+}
+
+#tasks li{
+  display: flex;
+  background-color: #7982e0;
+  padding:10px;
+  border-radius: 10px;
+  margin-bottom:10px;
+  align-items: center;
+  color:#fff;
+}
+
+.add{
+  border:1px solid #555;
+  border-radius: 15px;
+  padding:10px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.add input{
+  border: 0px;
+  background: transparent;
+  outline:0;
+  font-size: 18px;
+  flex:1;
+}
+
+.add button{
+  border:none;
+  background-color: white;
+  font-size: 30px;
+  width:70px;
+  cursor:pointer;
+  margin-right:10px
+}
+
+.add button:hover{
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.main-container{
+	margin-left:40px;
+	width: 1045px;
+	height: 800px;
+}
+
+.btn-list{
+	margin-top:30px
+}
+
+.btn-list button:hover{
+	background-color: #7982e0;
+	transition: all 0.3s ease;
+}
+
+.btn-list button{
+	margin-left:5px;
+	width: 160px;
+	height: 28px;
+	border-radius:10px;
+	font-size: small;
+}
+
+.img{
+	margin-left: 10px;
+	width: 1024px;
+	height: 660px;
+	background-color:red;
+}
+
+.vehicle-tooltip{
+	margin-top:10px;
+	font-weight: bolder;
+}
+
+

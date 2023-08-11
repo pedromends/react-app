@@ -1,0 +1,51 @@
+.main-content{
+	position: relative;
+	height: 100%;
+	width: calc(100% - 78px);
+	left: 78px;
+	transition: all 0.5s ease;
+}
+
+.main-content .text{
+	font-size:25px;
+	font-weight:500;
+	color:#1d1b31;
+	margin-top: 12px;
+}
+
+.sidebar.active ~ .main-content{
+	width: calc(100% - 240px);
+	left: 240px;
+}
+
+.page-title{
+	margin-top:20px;
+}
+
+.main-page-data button{
+	margin-left:10px;
+	width: 160px;
+	height: 28px;
+	border-radius:10px;
+	font-size: small;
+}
+
+.grid-container {
+	list-style: none;
+	margin-top:100px;
+	width: 930px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+	height: 300px;
+	width: 300px;
+	margin-left:10px;
+	margin-bottom:10px;
+}
